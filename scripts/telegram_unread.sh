@@ -6,7 +6,7 @@ source "$CURRENT_DIR/shared.sh"
 
 print_telegram_unread() {
 	if command_exists "telegram-cli"; then
-        telegram-cli -e 'dialog_list' | grep -c '[1-9][0-9]* unread'
+        telegram-cli -ECRD -e 'dialog_list' | grep -c '[1-9][0-9]* unread'
     else
         echo "Install Telegram CLI"
 	fi
