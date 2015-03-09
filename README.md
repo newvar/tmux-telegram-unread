@@ -6,6 +6,8 @@ usage: #{telegram_unread}
 
 update time depends on status-interval option
 
+known bug: steals new messages from other instances of TG CLI, is a TG CLI trouble.
+
 # License
 
 MIT
