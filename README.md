@@ -1,4 +1,4 @@
-# tmux-keyboard-layout
+# tmux-telegram-unread
 tmux plugin that shows telegram unread dialogs count
 
 depends on Telegram CLI https://github.com/vysheng/tg
