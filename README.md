@@ -1,7 +1,10 @@
 # Tmux Telegram Unread
+
+discontinued at this moment, not recommeneded, use [this version](https://github.com/newvar/tmux-telegram-daemon-unread) please
+
 Tmux plugin to show telegram unread dialogs count in status bar as a widget.
 
-The main difference from the https://github.com/newvar/tmux-telegram-daemon-unread is that this plugin starts telegram-cli instance every status-interval.<br/>
+The main difference from [newer Tmux Telegram Unread](https://github.com/newvar/tmux-telegram-daemon-unread) is that this plugin starts telegram-cli instance every status-interval.<br/>
 It causes the known bug: plugin steals new messages from other instances of TG CLI, it is a TG CLI trouble.
 
 ### Usage
